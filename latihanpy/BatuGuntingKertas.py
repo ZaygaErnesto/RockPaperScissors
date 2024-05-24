@@ -33,9 +33,9 @@ window = Tk()
 window.title("Rock-Paper-Scissors")
 
 # Create image buttons
-gambar1 = PhotoImage(file=".\pictures\kertas2.png")
-gambar2 = PhotoImage(file=".\pictures\kertas.png")
-gambar3 = PhotoImage(file=".\pictures\gunting.png")
+gambar1 = PhotoImage(file="RockPaperScissors-main\latihanpy\pictures\kertas2.png")
+gambar2 = PhotoImage(file="RockPaperScissors-main\latihanpy\pictures\kertas.png")
+gambar3 = PhotoImage(file="RockPaperScissors-main\latihanpy\pictures\gunting.png")
 
 # Place buttons using grid
 rock_button = Button(window, image=gambar1, command=lambda: player_choice_selected("Rock"))
